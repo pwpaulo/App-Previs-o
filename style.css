@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+.box-maior{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(0,0,0,0.7175245098039216) 0%, rgba(0,0,0,0.7315301120448179) 100%);
+    padding: 40px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.box-medio{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 27px;
+}
+.box-menor{
+    display: flex;
+    align-items: center;
+}
+.appprevisao-text{
+    align-items: center;
+    color: white
+    
+}
+.titulo-previsao{
+    color:white
+    
+}
+.texto-previsao{
+    color:white;
+    text-transform: capitalize;
+}
+.graus{
+    color:white
+}
+.umidade{
+    color:white
+}
+
+input{
+    outline: none;
+    border-radius:5px;
+}
+
+.buttom{
+    cursor:pointer
+}
+
+.quantidadeDePesquisas {
+    color:white
+}
